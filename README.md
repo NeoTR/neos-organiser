@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Neo's Organiser
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Neo's Organiser is a comprehensive web application designed to help manage your daily tasks and events. It includes a dashboard, a to-do list, a calendar, a notes section, and a settings page. The application is built with ReactJS, React Router for navigation, TailwindCSS for styling and way more.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Dashboard: View a summary of your tasks and events
+- Todo: Manage your tasks
+- Calendar: Keep track of your events
+- Notes: Write and save notes
+- Settings: Configure the application
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository: `git clone https://github.com/yourusername/neos-organiser.git`
+2. Navigate into the directory: `cd neos-organiser`
+3. Install the dependencies: `npm install`
+4. Navigate into the directory and do the same again: `cd neos-organiser/server`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+1. Start the server first using: `node .`
+2. Start the Web App second using `npm start`
+3. Open your web browser and visit `http://localhost:3001`
+4. Explore the different features of the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Improvements
 
-### `npm run build`
+I have many great things planned for this organiser which would make the performance and enjoyment much better for the users. Understand that this project is not done yet and still may have some bugs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! Please open an issue if you encounter a bug or have a feature request. If you want to contribute code, please open a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Dashboard![](https://i.imgur.com/OIa5ExT.png)
+2. To-Do List ![](https://i.imgur.com/8yC8trZ.png)
+3. Calender ![](https://i.imgur.com/LzcVh7t.png)
+4. Notes![](https://i.imgur.com/6ZDRfnF.png)
