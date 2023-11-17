@@ -27,7 +27,7 @@ let accessToken = "";
 module.exports = addHomework;
 async function addHomework() {
   const org = await somtoday.searchOrganisation({
-    name: "Twents Carmel College",
+    name: "Your School Here",
   });
   if (!org) throw new Error("School not found");
   const user = await org.authenticate({
